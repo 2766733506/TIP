@@ -1,3 +1,6 @@
+## TIP
+<img src="流程.png" width="1001" alt="">
+
 ## Setup
 We provide the environment configuration file exported by Anaconda, which can help you build up conveniently.
 ```bash
@@ -29,3 +32,10 @@ For evaluating the defense performance, run the following command.
 cd logs/防御效果和热力图
 python run_attack_and_define.py --image_folder sampled_images/cifar10_32 --basepath logs/防御效果和热力图/cifar10 --model_path data/resnet18_cifar10.pth --class_name cifar10 --img_size 32 --epsilon 5
 ```  
+
+
+
+
+## Convergence  
+<img src="result_acc.png" width="1045" alt="The preprint will not be shown on the platform.">
+
